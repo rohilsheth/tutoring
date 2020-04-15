@@ -29,16 +29,16 @@
 
     <main id="content" class="main-content" role="main">
       {{ content }}
-
+      <!-- Calendly inline widget begin -->
+      <div class="calendly-inline-widget" data-url="https://calendly.com/1600viking" style="min-width:320px;height:630px;"></div>
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+      <!-- Calendly inline widget end -->
       <footer class="site-footer">
         {% if site.github.is_project_page %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">Rohil Sheth</a>.</span>
         {% endif %}
       </footer>
-      <!-- Calendly inline widget begin -->
-      <div class="calendly-inline-widget" data-url="https://calendly.com/1600viking" style="min-width:320px;height:630px;"></div>
-      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
-      <!-- Calendly inline widget end -->
+      
     </main>
   </body>
 </html>
